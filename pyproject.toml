@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gen-ai-nlp-lab-1"
+version = "0.1.0"
+description = "gen ai nlp lab 1"
+authors = ["Roman Kovalchuk <ro.kovalch@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.14"
+transformers = "^4.47.0"
+kaggle = "^1.6.17"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
