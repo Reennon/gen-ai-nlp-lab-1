@@ -49,3 +49,6 @@ def postprocess(entities):
     result_dict_list = filter_unique_dicts(result_dict_list)
 
     return result_dict_list
+
+def filter_dicts_by_text(dict_list, original_text):
+    return [d for d in dict_list if 'text' in d and d['text'] in original_text]
